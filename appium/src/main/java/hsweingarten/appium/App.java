@@ -6,8 +6,12 @@ package hsweingarten.appium;
  */
 public class App 
 {
+	public static void test(){
+		System.out.println( "Hello World!" );
+	}
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        test(); 
     }
 }
